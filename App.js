@@ -32,7 +32,6 @@ const SwapiComponent = () => {
             <View style={styles.campoTexto}><Text style={styles.titulo}>Nome:</Text> <Text style={styles.texto}>{character.name}</Text></View>
             <View style={styles.campoTexto}><Text style={styles.titulo}>Altura:</Text> <Text style={styles.texto}>{character.height}m</Text></View>
             <View style={styles.campoTexto}><Text style={styles.titulo}>Peso:</Text> <Text style={styles.texto}>{character.mass}kg</Text></View>
-            {/* Adicione outros campos conforme necessário */}
           </View>
         ))
       ) : (
